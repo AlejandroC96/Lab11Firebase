@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F1B5C">
+
+    <ImageView
+        android:id="@+id/image_single_view"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/togo" />
+
+    <TextView
+        android:id="@+id/textView_single_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="245dp"
+        android:background="#28357C"
+        android:gravity="center"
+        android:text="Mi pelicula"
+        android:textColor="#B8C2FF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
